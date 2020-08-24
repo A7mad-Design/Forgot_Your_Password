@@ -1,0 +1,66 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../img/Untitled-1.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Forgot-Password {
+    
+    float: right;
+    margin-top: 8%;
+    margin-right: 58px;
+}
+
+
+.Forgot-Password h2 {
+    font-size: 50px;
+}
+
+
+.Forgot-Password p  {
+    font-size: 17px;
+}
+
+.Forgot-Password input {
+    width: 100%;
+    background: transparent;
+    height: 27px;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 4px solid rgb(85, 82, 250);;
+    outline: none;
+    color: rgb(85, 82, 250);
+    
+}
+
+.Forgot-Password input::placeholder {
+    color: rgb(85, 82, 250);
+}
+
+button {
+    background-color:  rgb(85, 82, 250);
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    float: right;
+    margin: 15px;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px 30px #ffffff;
+    outline: none;
+}
+
+button:hover {
+    box-shadow: 1px 1px 5px 3px #000000;
+}
+
+a {
+   text-decoration: none;
+   font-size: 17px;
+   color: #ffffff;
+}
